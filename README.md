@@ -32,3 +32,7 @@ The dataset created through these steps provides a diverse and representative co
 
 ## Model Architecture
 The LeNet-5 architecture, originally proposed by Yann LeCun et al., has proven to be effective in image classification tasks. It consists of multiple convolutional and pooling layers, followed by fully connected layers. For this project, the LeNet-5 architecture was adapted and trained specifically for classifying Persian digits.
+![LeNet-5 Architecture](https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5/blob/master/images/LeNet5_architecture.png)
+
+## Implementation
+The project was implemented using TensorFlow and Keras. The training process involves loading the dataset, constructing the LeNet-5 model, training the model on the dataset, and evaluating its performance. Comprehensive explanations and detailed insights can be found within the `persian_digits_classifier.ipynb` notebook, offering a deeper understanding of the project's implementation.
