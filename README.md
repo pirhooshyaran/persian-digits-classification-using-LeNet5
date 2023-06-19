@@ -7,7 +7,12 @@ This repository showcases a simple Computer Vision project that focuses on the c
 The dataset used in this project was created by collecting images of handwritten Persian digits. The digits were written by different individuals on a piece of paper, and then photographs of the digits were taken. The images were organized into a folder structure where each digit class had its own sub-folder within a folder named "raw_images". The sub-folders were labeled from "0" to "9" corresponding to the respective digit class.
 
 The following images display examples of raw images, showing Persian number "2" and "6" respectively.
- 
+
+<p align="center">
+  <img src="https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5/blob/master/raw_images/2/001.png" width="400" alt="Number 2">
+  <img src="https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5/blob/master/raw_images/6/001.png" width="400" alt="Number 6">
+</p>
+
 ![An example from the raw dataset which is number "2" in Persian](https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5/blob/master/raw_images/2/001.png)
 
 To preprocess the dataset, the images were cropped to focus on the digit itself, ensuring that each digit was located in the center of the image. The cropped images were then resized to a uniform size of (32, 32) pixels using the OpenCV library. This resizing step helps to standardize the input size for training the LeNet-5 model.
