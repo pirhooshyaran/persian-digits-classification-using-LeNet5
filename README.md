@@ -8,7 +8,7 @@ The dataset used in this project was created by collecting images of handwritten
 
 The following images display examples of raw images, showing Persian number "2" and "6" respectively.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5/blob/master/raw_images/2/001.png" width="100" alt="Number 2">
   <img src="https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5/blob/master/raw_images/6/001.png" width="100" alt="Number 6">
 </p>
