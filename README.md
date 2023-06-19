@@ -1,6 +1,6 @@
 # Persian Digits Classification using LeNet-5
 
-## introduction
+## Introduction
 This repository showcases a simple Computer Vision project that focuses on the classification of Persian digits using the LeNet-5 convolutional neural network architecture, originally proposed by Yann LeCun et al. The goal of this project is to accurately classify handwritten Persian digits from 0 to 9.
 
 ## Dataset
@@ -29,3 +29,6 @@ The final dataset looks like the following images which are Persian number "3" a
 The resulting preprocessed images were saved as a new dataset into the "dataset" folder, ready for training the LeNet-5 model.Please refer to the `create_dataset.py` file in the repository for the specific implementation details of the dataset creation process. Additionally, for the testing set, two randomly selected images were chosen from each class and separated into a separate "test_set" folder using the `create_testset.py` file.
 
 The dataset created through these steps provides a diverse and representative collection of handwritten Persian digits, enabling the training and evaluation of the LeNet-5 model for accurate classification.
+
+## Model Architecture
+The LeNet-5 architecture, originally proposed by Yann LeCun et al., has proven to be effective in image classification tasks. It consists of multiple convolutional and pooling layers, followed by fully connected layers. For this project, the LeNet-5 architecture was adapted and trained specifically for classifying Persian digits.
