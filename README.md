@@ -1,1 +1,2 @@
-# persian-digits-classification-using-LeNet5
+# Persian Digits Classification using LeNet-5
+
