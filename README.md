@@ -6,7 +6,7 @@ This repository showcases a simple Computer Vision project that focuses on the c
 ## Dataset
 The dataset used in this project was created by collecting images of handwritten Persian digits. The digits were written by different individuals on a piece of paper, and then photographs of the digits were taken. The images were organized into a folder structure where each digit class had its own sub-folder within a folder named "raw_images". The sub-folders were labeled from "0" to "9" corresponding to the respective digit class.
 
-The following images display examples of raw images, showing Persian number "2" and "6" respectively.
+Below are instances of raw images showcasing the Persian digits "2" and "6" respectively.
 
 <p align="left">
   <img src="https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5/blob/master/raw_images/2/001.png" width="100" alt="Number 2">
@@ -19,6 +19,12 @@ Additionally, to enhance the quality and improve the accuracy of the model, two 
 
 After the Gaussian blur, a thresholding operation was performed. Thresholding converts the image into a binary form, distinguishing the digit from the background. This segmentation step helps to enhance contrast and isolate the digit from the surrounding elements.
 
+The final dataset looks like the following images which are Persian number "3" and "5" respectively.
+
+<p align="left">
+  <img src="https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5/blob/master/dataset/3/001.png" width="100" alt="Number 2">
+  <img src="https://github.com/pirhooshyaran/persian-digits-classification-using-LeNet5/blob/master/dataset/5/001.png" width="100" alt="Number 6">
+</p>
 
 The resulting preprocessed images were saved as a new dataset into the "dataset" folder, ready for training the LeNet-5 model.Please refer to the `create_dataset.py` file in the repository for the specific implementation details of the dataset creation process. Additionally, for the testing set, two randomly selected images were chosen from each class and separated into a separate "test_set" folder using the `create_testset.py` file.
 
