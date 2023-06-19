@@ -47,4 +47,9 @@ Upon utilizing the augmented dataset for further training, the following updated
 * Validation Loss: 0.316
 * Validation Accuracy: 92.683%
 
-With the inclusion of rotation-based augmentation, the validation accuracy significantly improved to 92.683%. This improvement signifies the effectiveness of data augmentation in reducing overfitting and enhancing the model's ability to generalize to unseen examples.
+With the inclusion of rotation-based augmentation, the validation accuracy significantly improved to 92.683%. This improvement signifies the effectiveness of data augmentation in reducing overfitting and enhancing the model's ability to generalize to unseen examples. Despite the improvement in validation accuracy achieved through data augmentation, the current dataset size remains insufficient to effectively mitigate overfitting. Expanding the dataset by incorporating a greater number of images for each class is likely to yield higher validation accuracy while simultaneously reducing overfitting.
+## Conclusion
+In this project, we trained a LeNet5-based model to classify Persian digits using a created dataset. Despite achieving perfect training accuracy of 100%, the model exhibited overfitting with a validation accuracy of 81.301%. To mitigate overfitting, we employed data augmentation by rotating the images within a small range. This approach significantly improved the validation accuracy to 92.683%. However, the current dataset size remains limited. Expanding the dataset with more images per class is crucial to further reduce overfitting and enhance the model's accuracy. This project demonstrates the effectiveness of data augmentation in addressing overfitting, with the potential for greater improvements through dataset expansion.
+
+## Reference
+LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998): 2278-2324.
